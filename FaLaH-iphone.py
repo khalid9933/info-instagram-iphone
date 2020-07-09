@@ -160,5 +160,5 @@ for password in range(amount):
 
 
     print (uesr+password+k+o+email)
-    with open('password.txt', 'a') as x:
+    with open('email.txt', 'a') as x:
      x.write(uesr + password + k + o + email + '\n')
